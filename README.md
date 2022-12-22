@@ -1,1 +1,1 @@
-# Kadriplace-bazaSQL
+# Kadryiplace-bazaSQL
