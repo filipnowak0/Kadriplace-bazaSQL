@@ -41,9 +41,49 @@ INSERT INTO pracownicy values(18,1,'1/04/23','Karolina','Patrycja','Świątek','
 INSERT INTO pracownicy values(19,1,'2/04/23','Borys','Waldemar','Sowa','M','782230243','borys.sowa@it.com','27/02/1996','Łódź','96022780594','','Fryderyk','Halina','Sowa','Gajewska','żonaty','05','polskie');
 INSERT INTO pracownicy values(20,1,'3/04/23','Amelia','Jowita','Musiał','K','464389932','amelia.musial@it.com','26/06/2005','Warszawa','05262633030','','Maciej','Adela','Musiał','Krupa','panna','07','polskie');
 
+-- dane adresowe --
+INSERT INTO dane_adresowe values (1,1,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-110','Warszawa','Chrobrego','21','Warszawa');
+INSERT INTO dane_adresowe values (2,2,'zamieszkania','Mazowieckie','Warszawa','Śródmieście','00-061','Warszawa','Żurawia','55/2','Warszawa');
+INSERT INTO dane_adresowe values (3,3,'zameldowania','Małopolskie','Kraków','Kraków','30-004','Kraków','Henryka Kamińskiego','4','Kraków');
+INSERT INTO dane_adresowe values (4,4,'zameldowania','Lubuskie','Zielona Góra','Zielona Góra','65-001','Zielona Góra','Mazowiecka','12/3','Zielona Góra');
+INSERT INTO dane_adresowe values (5,5,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-013','Warszawa','Brzozowa','243','Warszawa');
+INSERT INTO dane_adresowe values (6,6,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-130','Warszawa','Lipowa','87A','Warszawa');
+INSERT INTO dane_adresowe values (7,7,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-058','Warszawa','Kwiatowa','29/54','Warszawa');
+INSERT INTO dane_adresowe values (8,8,'zameldowania','Podkarpackie','Rzeszów','Rzeszów','35-015','Rzeszów','Hetmańska','57','Rzeszów');
+INSERT INTO dane_adresowe values (9,9,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-115','Warszawa','Kolorowa','3','Warszawa');
+INSERT INTO dane_adresowe values (10,10,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-059','Warszawa','Parkowa','118','Warszawa');
+INSERT INTO dane_adresowe values (11,11,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-080','Warszawa','Kolejowa','31','Warszawa');
+INSERT INTO dane_adresowe values (12,12,'zameldowania','Podkarpackie','Tarnobrzeg','Tarnobrzeg','39-400','Tarnobrzeg','Sosnowa','12A','Tarnobrzeg');
+INSERT INTO dane_adresowe values (13,13,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-061','Warszawa','Żurawia','72/15','Warszawa');
+INSERT INTO dane_adresowe values (14,14,'zameldowania','Kujawsko-Pomorskie','Bydgoszcz','Bydgoszcz','85-005','Bydgoszcz','Akacjowa','8','Bydgoszcz');
+INSERT INTO dane_adresowe values (15,15,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-123','Warszawa','Leśna','2','Warszawa');
+INSERT INTO dane_adresowe values (16,16,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-043','Warszawa','Szkolna','101B','Warszawa');
+INSERT INTO dane_adresowe values (17,17,'zameldowania','Wielkopolskie','Poznań','Poznań','60-008','Poznań','Elizy Orzeszkowej','89','Poznań');
+INSERT INTO dane_adresowe values (18,18,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-104','Warszawa','Ogrodowa','17','Warszawa');
+INSERT INTO dane_adresowe values (19,19,'zameldowania','Łódzkie','Łódź','Łódź','90-010','Łódź','Polna','21','Łódź');
+INSERT INTO dane_adresowe values (20,20,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-010','Warszawa','Słoneczna','35','Warszawa');
 
-
-
+-- umowy pracownicze --
+INSERT INTO umowy_pracownicze values (1,1,'umowa o prace','01/03/2023','02/03/2023','31/12/2023',24.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (2,2,'umowa o prace','01/03/2023','02/03/2023','30/09/2023',24.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (3,3,'umowa o prace','01/03/2023','02/03/2023','31/12/2025',34,'godzinowa','kierownik projektów','1/1');
+INSERT INTO umowy_pracownicze values (4,4,'umowa o prace','01/03/2023','02/03/2023','31/12/2024',35,'godzinowa','analityk','1/1');
+INSERT INTO umowy_pracownicze values (5,5,'umowa o prace','01/03/2023','02/03/2023','',70,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (6,6,'umowa o prace','01/03/2023','02/03/2023','',80,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (7,7,'umowa o prace','01/03/2023','02/03/2023','31/12/2026',58.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (8,8,'umowa o prace','01/03/2023','02/03/2023','',32,'godzinowa','grafik','1/1');
+INSERT INTO umowy_pracownicze values (9,9,'umowa o prace','01/03/2023','02/03/2023','',60,'godzinowa','analityk danych','1/1');
+INSERT INTO umowy_pracownicze values (10,10,'b2b','02/03/2023','03/03/2023','30/06/2024',110,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (11,11,'staż','02/03/2023','03/03/2023','30/09/2023',23.5,'godzinowa','analityk biznesowy','1/2');
+INSERT INTO umowy_pracownicze values (12,12,'umowa o prace','02/03/2023','03/03/2023','31/12/2027',5800,'miesięczna','kierownik projektów','1/1');
+INSERT INTO umowy_pracownicze values (13,13,'umowa o prace','02/03/2023','03/03/2023','',80.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (14,14,'umowa o prace','03/03/2023','04/03/2023','31/12/2023',4500,'miesięczna','kierownik projektów','1/2');
+INSERT INTO umowy_pracownicze values (15,15,'umowa o prace','03/03/2023','04/03/2023','31/12/2025',42,'godzinowa','wdrożenia systemów','1/1');
+INSERT INTO umowy_pracownicze values (16,16,'b2b','03/03/2023','04/03/2023','31/12/2023',15500,'miesięczna','analityk','1/1');
+INSERT INTO umowy_pracownicze values (17,17,'umowa o prace','03/03/2023','04/03/2023','31/12/2023',45,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (18,18,'staż','04/03/2023','05/03/2023','31/10/2023',23.5,'godzinowa','kierownik projektów','1/2');
+INSERT INTO umowy_pracownicze values (19,19,'praktyki','04/03/2023','05/03/2023','04/07/2023',23.5,'godzinowa','wdrożenia systemów','1/3');
+INSERT INTO umowy_pracownicze values (20,20,'praktyki','05/03/2023','06/03/2023','04/07/2023',23.5,'godzinowa','analityk biznesowy','1/3');
 
 
 
