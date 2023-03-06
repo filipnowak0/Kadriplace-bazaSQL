@@ -1,7 +1,0 @@
-#Instalacja
-Do poprawnego działania bazy zaleca się zaimportowania skryptów w następującej kolejności:
-  1. drop.sql - (opcjonalnie)
-  2. user.sql
-  3. create_table.sql
-  4. constraints.sql
-  5. insert.sql
