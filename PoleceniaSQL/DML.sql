@@ -42,6 +42,26 @@ INSERT INTO pracownicy values(19,1,'2/04/23','Borys','Waldemar','Sowa','M','7822
 INSERT INTO pracownicy values(20,1,'3/04/23','Amelia','Jowita','Musiał','K','464389932','amelia.musial@it.com','26/06/2005','Warszawa','05262633030','','Maciej','Adela','Musiał','Krupa','panna','07','polskie');
 
 -- dane adresowe --
+INSERT INTO dane_adresowe values (1,1,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-110','Warszawa','Chrobrego','21','Warszawa');
+INSERT INTO dane_adresowe values (2,2,'zamieszkania','Mazowieckie','Warszawa','Śródmieście','00-061','Warszawa','Żurawia','55/2','Warszawa');
+INSERT INTO dane_adresowe values (3,3,'zameldowania','Małopolskie','Kraków','Kraków','30-004','Kraków','Henryka Kamińskiego','4','Kraków');
+INSERT INTO dane_adresowe values (4,4,'zameldowania','Lubuskie','Zielona Góra','Zielona Góra','65-001','Zielona Góra','Mazowiecka','12/3','Zielona Góra');
+INSERT INTO dane_adresowe values (5,5,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-013','Warszawa','Brzozowa','243','Warszawa');
+INSERT INTO dane_adresowe values (6,6,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-130','Warszawa','Lipowa','87A','Warszawa');
+INSERT INTO dane_adresowe values (7,7,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-058','Warszawa','Kwiatowa','29/54','Warszawa');
+INSERT INTO dane_adresowe values (8,8,'zameldowania','Podkarpackie','Rzeszów','Rzeszów','35-015','Rzeszów','Hetmańska','57','Rzeszów');
+INSERT INTO dane_adresowe values (9,9,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-115','Warszawa','Kolorowa','3','Warszawa');
+INSERT INTO dane_adresowe values (10,10,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-059','Warszawa','Parkowa','118','Warszawa');
+INSERT INTO dane_adresowe values (11,11,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-080','Warszawa','Kolejowa','31','Warszawa');
+INSERT INTO dane_adresowe values (12,12,'zameldowania','Podkarpackie','Tarnobrzeg','Tarnobrzeg','39-400','Tarnobrzeg','Sosnowa','12A','Tarnobrzeg');
+INSERT INTO dane_adresowe values (13,13,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-061','Warszawa','Żurawia','72/15','Warszawa');
+INSERT INTO dane_adresowe values (14,14,'zameldowania','Kujawsko-Pomorskie','Bydgoszcz','Bydgoszcz','85-005','Bydgoszcz','Akacjowa','8','Bydgoszcz');
+INSERT INTO dane_adresowe values (15,15,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-123','Warszawa','Leśna','2','Warszawa');
+INSERT INTO dane_adresowe values (16,16,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-043','Warszawa','Szkolna','101B','Warszawa');
+INSERT INTO dane_adresowe values (17,17,'zameldowania','Wielkopolskie','Poznań','Poznań','60-008','Poznań','Elizy Orzeszkowej','89','Poznań');
+INSERT INTO dane_adresowe values (18,18,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-104','Warszawa','Ogrodowa','17','Warszawa');
+INSERT INTO dane_adresowe values (19,19,'zameldowania','Łódźkie','Łódź','Łódź','90-010','Łódź','Polna','21','Łódź');
+INSERT INTO dane_adresowe values (20,20,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-010','Warszawa','Słoneczna','35','Warszawa');
 
 -- umowy praownicze --
 INSERT INTO 
