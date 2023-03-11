@@ -41,6 +41,9 @@ INSERT INTO pracownicy values(18,1,'1/04/23','Karolina','Patrycja','Świątek','
 INSERT INTO pracownicy values(19,1,'2/04/23','Borys','Waldemar','Sowa','M','782230243','borys.sowa@it.com','27/02/1996','Łódź','96022780594','','Fryderyk','Halina','Sowa','Gajewska','żonaty','05','polskie');
 INSERT INTO pracownicy values(20,1,'3/04/23','Amelia','Jowita','Musiał','K','464389932','amelia.musial@it.com','26/06/2005','Warszawa','05262633030','','Maciej','Adela','Musiał','Krupa','panna','07','polskie');
 
+-- pracownicy zus --
+
+
 -- dane adresowe --
 INSERT INTO dane_adresowe values (1,1,'zameldowania','Mazowieckie','Warszawa','Warszawa','00-110','Warszawa','Chrobrego','21','Warszawa');
 INSERT INTO dane_adresowe values (2,2,'zamieszkania','Mazowieckie','Warszawa','Śródmieście','00-061','Warszawa','Żurawia','55/2','Warszawa');
@@ -527,7 +530,28 @@ INSERT INTO wynagrodzenia values (19,19,'01/01/2023','31/01/2023',3196,'','','')
 INSERT INTO wynagrodzenia values (20,20,'01/01/2023','31/01/2023',3196,'','','');
 
 -- transakcje --
+INSERT INTO transakcje values (1,1,'06/02/2023',4116,'10/02/2023','przelew');
+INSERT INTO transakcje values (2,2,'06/02/2023',4116,'10/02/2023','przelew');
+INSERT INTO transakcje values (3,3,'06/02/2023',5712,'10/02/2023','przelew');
+INSERT INTO transakcje values (4,4,'06/02/2023',5880,'10/02/2023','przelew');
+INSERT INTO transakcje values (5,5,'06/02/2023',11760,'10/02/2023','przelew');
+INSERT INTO transakcje values (6,6,'06/02/2023',13440,'10/02/2023','przelew');
+INSERT INTO transakcje values (7,7,'06/02/2023',9828,'10/02/2023','przelew');
+INSERT INTO transakcje values (8,8,'06/02/2023',5376,'10/02/2023','przelew');
+INSERT INTO transakcje values (9,9,'06/02/2023',10080,'10/02/2023','przelew');
+INSERT INTO transakcje values (10,10,'06/02/2023',17600,'10/02/2023','przelew');
+INSERT INTO transakcje values (11,11,'06/02/2023',3760,'10/02/2023','przelew');
+INSERT INTO transakcje values (12,12,'06/02/2023',5800,'10/02/2023','gotówka');
+INSERT INTO transakcje values (13,13,'06/02/2023',12880,'10/02/2023','przelew');
+INSERT INTO transakcje values (14,14,'06/02/2023',4500,'10/02/2023','gotówka');
+INSERT INTO transakcje values (15,15,'06/02/2023',6384,'10/02/2023','przelew');
+INSERT INTO transakcje values (16,16,'06/02/2023',15000,'10/02/2023','gotówka');
+INSERT INTO transakcje values (17,17,'06/02/2023',6840,'10/02/2023','przelew');
+INSERT INTO transakcje values (18,18,'06/02/2023',3384,'10/02/2023','przelew');
+INSERT INTO transakcje values (19,19,'06/02/2023',3196,'10/02/2023','przelew');
+INSERT INTO transakcje values (20,20,'06/02/2023',3196,'10/02/2023','przelew');
 
+commit;
 
 
 
