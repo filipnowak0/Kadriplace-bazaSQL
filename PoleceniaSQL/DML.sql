@@ -41,6 +41,11 @@ INSERT INTO pracownicy values(18,1,'1/04/23','Karolina','Patrycja','Świątek','
 INSERT INTO pracownicy values(19,1,'2/04/23','Borys','Waldemar','Sowa','M','782230243','borys.sowa@it.com','27/02/1996','Łódź','96022780594','','Fryderyk','Halina','Sowa','Gajewska','żonaty','05','polskie');
 INSERT INTO pracownicy values(20,1,'3/04/23','Amelia','Jowita','Musiał','K','464389932','amelia.musial@it.com','26/06/2005','Warszawa','05262633030','','Maciej','Adela','Musiał','Krupa','panna','07','polskie');
 
+-- dane adresowe --
+
+-- umowy praownicze --
+INSERT INTO 
+
 -- czas pracy --
 -- 1 --
 INSERT INTO czas_pracy values (1,1,'03/01/2023 8:00:00','03/01/2023 16:00:00');
@@ -241,6 +246,224 @@ INSERT INTO czas_pracy values (188,9,'27/01/2023 8:00:00','27/01/2023 16:00:00')
 INSERT INTO czas_pracy values (189,9,'30/01/2023 8:00:00','30/01/2023 16:00:00');
 INSERT INTO czas_pracy values (190,9,'31/01/2023 8:00:00','31/01/2023 16:00:00');
 -- 10 --
+INSERT INTO czas_pracy values (191,10,'04/01/2023 8:00:00','04/01/2023 16:00:00');
+INSERT INTO czas_pracy values (192,10,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (193,10,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (194,10,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (195,10,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (196,10,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (197,10,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (198,10,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (199,10,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (200,10,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (201,10,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (202,10,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (203,10,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (204,10,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (205,10,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (206,10,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (207,10,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (208,10,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (209,10,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (210,10,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 11 --
+INSERT INTO czas_pracy values (211,11,'04/01/2023 9:00:00','04/01/2023 16:00:00');
+INSERT INTO czas_pracy values (212,11,'05/01/2023 9:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (213,11,'06/01/2023 9:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (214,11,'09/01/2023 9:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (215,11,'10/01/2023 9:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (216,11,'11/01/2023 9:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (217,11,'12/01/2023 9:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (218,11,'13/01/2023 9:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (219,11,'16/01/2023 9:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (220,11,'17/01/2023 9:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (221,11,'18/01/2023 9:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (222,11,'19/01/2023 9:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (223,11,'20/01/2023 9:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (224,11,'23/01/2023 9:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (225,11,'24/01/2023 9:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (226,11,'25/01/2023 9:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (227,11,'26/01/2023 9:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (228,11,'27/01/2023 9:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (229,11,'30/01/2023 9:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (230,11,'31/01/2023 9:00:00','31/01/2023 16:00:00');
+-- 12 --
+INSERT INTO czas_pracy values (231,12,'04/01/2023 8:00:00','04/01/2023 16:00:00');
+INSERT INTO czas_pracy values (232,12,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (233,12,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (234,12,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (235,12,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (236,12,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (237,12,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (238,12,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (239,12,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (240,12,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (241,12,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (242,12,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (243,12,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (244,12,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (245,12,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (246,12,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (247,12,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (248,12,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (249,12,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (250,12,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 13 --
+INSERT INTO czas_pracy values (251,13,'04/01/2023 8:00:00','04/01/2023 16:00:00');
+INSERT INTO czas_pracy values (252,13,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (253,13,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (254,13,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (255,13,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (256,13,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (257,13,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (258,13,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (259,13,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (260,13,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (261,13,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (262,13,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (263,13,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (264,13,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (265,13,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (266,13,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (267,13,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (268,13,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (269,13,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (270,13,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 14 --
+INSERT INTO czas_pracy values (271,14,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (272,14,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (273,14,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (274,14,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (275,14,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (276,14,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (277,14,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (278,14,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (279,14,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (280,14,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (281,14,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (282,14,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (283,14,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (284,14,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (285,14,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (286,14,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (287,14,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (288,14,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (289,14,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 15 --
+INSERT INTO czas_pracy values (290,15,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (291,15,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (292,15,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (293,15,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (294,15,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (295,15,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (296,15,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (297,15,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (298,15,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (299,15,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (300,15,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (301,15,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (302,15,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (303,15,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (304,15,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (305,15,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (306,15,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (307,15,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (308,15,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 16 --
+INSERT INTO czas_pracy values (309,16,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (310,16,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (311,16,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (312,16,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (313,16,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (314,16,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (315,16,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (316,16,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (317,16,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (318,16,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (319,16,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (320,16,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (321,16,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (322,16,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (323,16,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (324,16,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (325,16,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (326,16,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (327,16,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 17 --
+INSERT INTO czas_pracy values (328,17,'05/01/2023 8:00:00','05/01/2023 16:00:00');
+INSERT INTO czas_pracy values (329,17,'06/01/2023 8:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (330,17,'09/01/2023 8:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (331,17,'10/01/2023 8:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (332,17,'11/01/2023 8:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (333,17,'12/01/2023 8:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (334,17,'13/01/2023 8:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (335,17,'16/01/2023 8:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (336,17,'17/01/2023 8:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (337,17,'18/01/2023 8:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (338,17,'19/01/2023 8:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (339,17,'20/01/2023 8:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (340,17,'23/01/2023 8:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (341,17,'24/01/2023 8:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (342,17,'25/01/2023 8:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (343,17,'26/01/2023 8:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (344,17,'27/01/2023 8:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (345,17,'30/01/2023 8:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (346,17,'31/01/2023 8:00:00','31/01/2023 16:00:00');
+-- 18 --
+INSERT INTO czas_pracy values (347,18,'06/01/2023 9:00:00','06/01/2023 16:00:00');
+INSERT INTO czas_pracy values (348,18,'09/01/2023 9:00:00','09/01/2023 16:00:00');
+INSERT INTO czas_pracy values (349,18,'10/01/2023 9:00:00','10/01/2023 16:00:00');
+INSERT INTO czas_pracy values (350,18,'11/01/2023 9:00:00','11/01/2023 16:00:00');
+INSERT INTO czas_pracy values (351,18,'12/01/2023 9:00:00','12/01/2023 16:00:00');
+INSERT INTO czas_pracy values (352,18,'13/01/2023 9:00:00','13/01/2023 16:00:00');
+INSERT INTO czas_pracy values (353,18,'16/01/2023 9:00:00','16/01/2023 16:00:00');
+INSERT INTO czas_pracy values (354,18,'17/01/2023 9:00:00','17/01/2023 16:00:00');
+INSERT INTO czas_pracy values (355,18,'18/01/2023 9:00:00','18/01/2023 16:00:00');
+INSERT INTO czas_pracy values (356,18,'19/01/2023 9:00:00','19/01/2023 16:00:00');
+INSERT INTO czas_pracy values (357,18,'20/01/2023 9:00:00','20/01/2023 16:00:00');
+INSERT INTO czas_pracy values (358,18,'23/01/2023 9:00:00','23/01/2023 16:00:00');
+INSERT INTO czas_pracy values (359,18,'24/01/2023 9:00:00','24/01/2023 16:00:00');
+INSERT INTO czas_pracy values (360,18,'25/01/2023 9:00:00','25/01/2023 16:00:00');
+INSERT INTO czas_pracy values (361,18,'26/01/2023 9:00:00','26/01/2023 16:00:00');
+INSERT INTO czas_pracy values (362,18,'27/01/2023 9:00:00','27/01/2023 16:00:00');
+INSERT INTO czas_pracy values (363,18,'30/01/2023 9:00:00','30/01/2023 16:00:00');
+INSERT INTO czas_pracy values (364,18,'31/01/2023 9:00:00','31/01/2023 16:00:00');
+-- 19 --
+INSERT INTO czas_pracy values (365,19,'09/01/2023 9:30:00','09/01/2023 15:30:00');
+INSERT INTO czas_pracy values (366,19,'10/01/2023 9:30:00','10/01/2023 15:30:00');
+INSERT INTO czas_pracy values (367,19,'11/01/2023 9:30:00','11/01/2023 15:30:00');
+INSERT INTO czas_pracy values (368,19,'12/01/2023 9:30:00','12/01/2023 15:30:00');
+INSERT INTO czas_pracy values (369,19,'13/01/2023 9:30:00','13/01/2023 15:30:00');
+INSERT INTO czas_pracy values (370,19,'16/01/2023 9:30:00','16/01/2023 15:30:00');
+INSERT INTO czas_pracy values (371,19,'17/01/2023 9:30:00','17/01/2023 15:30:00');
+INSERT INTO czas_pracy values (372,19,'18/01/2023 9:30:00','18/01/2023 15:30:00');
+INSERT INTO czas_pracy values (373,19,'19/01/2023 9:30:00','19/01/2023 15:30:00');
+INSERT INTO czas_pracy values (374,19,'20/01/2023 9:30:00','20/01/2023 15:30:00');
+INSERT INTO czas_pracy values (375,19,'23/01/2023 9:30:00','23/01/2023 15:30:00');
+INSERT INTO czas_pracy values (376,19,'24/01/2023 9:30:00','24/01/2023 15:30:00');
+INSERT INTO czas_pracy values (377,19,'25/01/2023 9:30:00','25/01/2023 15:30:00');
+INSERT INTO czas_pracy values (378,19,'26/01/2023 9:30:00','26/01/2023 15:30:00');
+INSERT INTO czas_pracy values (379,19,'27/01/2023 9:30:00','27/01/2023 15:30:00');
+INSERT INTO czas_pracy values (380,19,'30/01/2023 9:30:00','30/01/2023 15:30:00');
+INSERT INTO czas_pracy values (381,19,'31/01/2023 9:30:00','31/01/2023 15:30:00');
+-- 20 --
+INSERT INTO czas_pracy values (382,20,'09/01/2023 9:30:00','09/01/2023 15:30:00');
+INSERT INTO czas_pracy values (383,20,'10/01/2023 9:30:00','10/01/2023 15:30:00');
+INSERT INTO czas_pracy values (384,20,'11/01/2023 9:30:00','11/01/2023 15:30:00');
+INSERT INTO czas_pracy values (385,20,'12/01/2023 9:30:00','12/01/2023 15:30:00');
+INSERT INTO czas_pracy values (386,20,'13/01/2023 9:30:00','13/01/2023 15:30:00');
+INSERT INTO czas_pracy values (387,20,'16/01/2023 9:30:00','16/01/2023 15:30:00');
+INSERT INTO czas_pracy values (388,20,'17/01/2023 9:30:00','17/01/2023 15:30:00');
+INSERT INTO czas_pracy values (389,20,'18/01/2023 9:30:00','18/01/2023 15:30:00');
+INSERT INTO czas_pracy values (390,20,'19/01/2023 9:30:00','19/01/2023 15:30:00');
+INSERT INTO czas_pracy values (391,20,'20/01/2023 9:30:00','20/01/2023 15:30:00');
+INSERT INTO czas_pracy values (392,20,'23/01/2023 9:30:00','23/01/2023 15:30:00');
+INSERT INTO czas_pracy values (393,20,'24/01/2023 9:30:00','24/01/2023 15:30:00');
+INSERT INTO czas_pracy values (394,20,'25/01/2023 9:30:00','25/01/2023 15:30:00');
+INSERT INTO czas_pracy values (395,20,'26/01/2023 9:30:00','26/01/2023 15:30:00');
+INSERT INTO czas_pracy values (396,20,'27/01/2023 9:30:00','27/01/2023 15:30:00');
+INSERT INTO czas_pracy values (397,20,'30/01/2023 9:30:00','30/01/2023 15:30:00');
+INSERT INTO czas_pracy values (398,20,'31/01/2023 9:30:00','31/01/2023 15:30:00');
 
 
 
