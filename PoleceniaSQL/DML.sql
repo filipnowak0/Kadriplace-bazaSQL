@@ -63,8 +63,27 @@ INSERT INTO dane_adresowe values (18,18,'zameldowania','Mazowieckie','Warszawa',
 INSERT INTO dane_adresowe values (19,19,'zameldowania','Łódźkie','Łódź','Łódź','90-010','Łódź','Polna','21','Łódź');
 INSERT INTO dane_adresowe values (20,20,'zamieszkania','Mazowieckie','Warszawa','Warszawa','00-010','Warszawa','Słoneczna','35','Warszawa');
 
--- umowy praownicze --
-INSERT INTO 
+-- umowy pracownicze --
+INSERT INTO umowy_pracownicze values (1,1,'umowa o prace','02/01/2023','03/01/2023','31/12/2023',24.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (2,2,'umowa o prace','02/01/2023','03/01/2023','30/09/2023',24.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (3,3,'umowa o prace','02/01/2023','03/01/2023','31/12/2025',34,'godzinowa','kierownik projektów','1/1');
+INSERT INTO umowy_pracownicze values (4,4,'umowa o prace','02/01/2023','03/01/2023','31/12/2024',35,'godzinowa','analityk','1/1');
+INSERT INTO umowy_pracownicze values (5,5,'umowa o prace','02/01/2023','03/01/2023','',70,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (6,6,'umowa o prace','02/01/2023','03/01/2023','',80,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (7,7,'umowa o prace','02/01/2023','03/01/2023','31/12/2026',58.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (8,8,'umowa o prace','02/01/2023','03/01/2023','',32,'godzinowa','grafik','1/1');
+INSERT INTO umowy_pracownicze values (9,9,'umowa o prace','02/01/2023','03/01/2023','',60,'godzinowa','analityk danych','1/1');
+INSERT INTO umowy_pracownicze values (10,10,'b2b','03/01/2023','04/01/2023','30/06/2024',110,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (11,11,'staż','03/01/2023','04/01/2023','30/09/2023',23.5,'godzinowa','analityk biznesowy','1/2');
+INSERT INTO umowy_pracownicze values (12,12,'umowa o prace','03/01/2023','04/01/2023','31/12/2027',5800,'miesięczna','kierownik projektów','1/1');
+INSERT INTO umowy_pracownicze values (13,13,'umowa o prace','03/01/2023','04/01/2023','',80.5,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (14,14,'umowa o prace','04/01/2023','05/01/2023','31/12/2023',4500,'miesięczna','kierownik projektów','1/2');
+INSERT INTO umowy_pracownicze values (15,15,'umowa o prace','04/01/2023','05/01/2023','31/12/2025',42,'godzinowa','wdrożenia systemów','1/1');
+INSERT INTO umowy_pracownicze values (16,16,'b2b','04/01/2023','05/01/2023','31/12/2023',15000,'miesięczna','analityk','1/1');
+INSERT INTO umowy_pracownicze values (17,17,'umowa o prace','04/01/2023','05/01/2023','31/12/2023',45,'godzinowa','programista','1/1');
+INSERT INTO umowy_pracownicze values (18,18,'staż','05/01/2023','06/01/2023','31/10/2023',23.5,'godzinowa','kierownik projektów','1/2');
+INSERT INTO umowy_pracownicze values (19,19,'praktyki','06/01/2023','09/01/2023','04/07/2023',23.5,'godzinowa','praktykant','1/3');
+INSERT INTO umowy_pracownicze values (20,20,'praktyki','06/01/2023','09/01/2023','04/07/2023',23.5,'godzinowa','praktykant','1/3');
 
 -- czas pracy --
 -- 1 --
@@ -485,6 +504,29 @@ INSERT INTO czas_pracy values (396,20,'27/01/2023 9:30:00','27/01/2023 15:30:00'
 INSERT INTO czas_pracy values (397,20,'30/01/2023 9:30:00','30/01/2023 15:30:00');
 INSERT INTO czas_pracy values (398,20,'31/01/2023 9:30:00','31/01/2023 15:30:00');
 
+-- wynagrodzenie --
+INSERT INTO wynagrodzenia values (1,1,'01/01/2023','31/01/2023',4116,'','','');
+INSERT INTO wynagrodzenia values (2,2,'01/01/2023','31/01/2023',4116,'','','');
+INSERT INTO wynagrodzenia values (3,3,'01/01/2023','31/01/2023',5712,'','','');
+INSERT INTO wynagrodzenia values (4,4,'01/01/2023','31/01/2023',5880,'','','');
+INSERT INTO wynagrodzenia values (5,5,'01/01/2023','31/01/2023',11760,'','','');
+INSERT INTO wynagrodzenia values (6,6,'01/01/2023','31/01/2023',13440,'','','');
+INSERT INTO wynagrodzenia values (7,7,'01/01/2023','31/01/2023',9828,'','','');
+INSERT INTO wynagrodzenia values (8,8,'01/01/2023','31/01/2023',5376,'','','');
+INSERT INTO wynagrodzenia values (9,9,'01/01/2023','31/01/2023',10080,'','','');
+INSERT INTO wynagrodzenia values (10,10,'01/01/2023','31/01/2023',17600,'','','');
+INSERT INTO wynagrodzenia values (11,11,'01/01/2023','31/01/2023',3760,'','','');
+INSERT INTO wynagrodzenia values (12,12,'01/01/2023','31/01/2023',5800,'','','');
+INSERT INTO wynagrodzenia values (13,13,'01/01/2023','31/01/2023',12880,'','','');
+INSERT INTO wynagrodzenia values (14,14,'01/01/2023','31/01/2023',4500,'','','');
+INSERT INTO wynagrodzenia values (15,15,'01/01/2023','31/01/2023',6384,'','','');
+INSERT INTO wynagrodzenia values (16,16,'01/01/2023','31/01/2023',15000,'','','');
+INSERT INTO wynagrodzenia values (17,17,'01/01/2023','31/01/2023',6840,'','','');
+INSERT INTO wynagrodzenia values (18,18,'01/01/2023','31/01/2023',3384,'','','');
+INSERT INTO wynagrodzenia values (19,19,'01/01/2023','31/01/2023',3196,'','','');
+INSERT INTO wynagrodzenia values (20,20,'01/01/2023','31/01/2023',3196,'','','');
+
+-- transakcje --
 
 
 
